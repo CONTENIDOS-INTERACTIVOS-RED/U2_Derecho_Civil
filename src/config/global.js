@@ -30,25 +30,25 @@ export default {
         icono: 'far fa-file-alt',
         unidad: 'UNIDAD 2.',
         numero: '1',
-        titulo: 'Definición de algoritmo',
+        titulo: 'Personalidad jurídica: inicio y fin',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Sistema',
+            titulo: 'Definición de personalidad jurídica',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Pensamiento Sistémico o lógico',
+            titulo: 'Inicio de la personalidad jurídica',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Eficiencia de los algoritmos',
+            titulo: 'Fin de la personalidad jurídica',
             hash: 't_1_3',
           },
         ],
@@ -58,19 +58,20 @@ export default {
         icono: 'far fa-file-alt',
         unidad: 'UNIDAD 2.',
         numero: '2',
-        titulo: 'Lógica algorítmica: secuencias, condiciones, ciclos',
+        titulo: 'Capacidad jurídica y capacidad de obrar',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Metodología para la solución de algoritmos',
+            titulo:
+              'Diferencias entre la capacidad jurídica y la capacidad de obrar',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Secuencias, condiciones, ciclos',
+            titulo: 'Limitaciones de la capacidad de obrar',
             hash: 't_2_2',
           },
         ],
@@ -80,16 +81,26 @@ export default {
         icono: 'far fa-file-alt',
         unidad: 'UNIDAD 2.',
         numero: '3',
-        titulo:
-          'Representación de algoritmos: pseudocódigo y diagramas de flujo',
+        titulo: 'Estado civil y sus efectos jurídicos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Representación de algoritmos: pseudocódigo y diagramas de flujo',
+            titulo: 'Definición de estado civil',
             hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Efectos jurídicos del estado civil',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'El estado civil en la evolución del derecho',
+            hash: 't_3_3',
           },
         ],
       },
@@ -135,79 +146,86 @@ export default {
   },
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Chavarro Cadena, J. E. (2018). Código Civil: (2 ed.). Grupo Editorial Nueva Legislación SAS.',
+      link: 'https://ebook.net/es/lc/tecnologicadeloriente/titulos/68942',
+    },
+    {
+      referencia:
+        'Medina Pabón, J. E. (2018). Derecho Civil: derecho de familia: (5 ed.). Editorial Universidad del Rosario.',
+      link: 'https://ebook.net/es/lc/tecnologicadeloriente/titulos/70721',
+    },
+    {
+      referencia:
+        'Medina Pabón, J. E. (2014). Derecho civil: derecho de personas: (4 ed.). Editorial Universidad del Rosario.',
+      link: 'https://ebook.net/es/lc/tecnologicadeloriente/titulos/69643',
+    },
+    {
+      referencia: 'Corte Constitucional (2021) Sentencia T-375',
+      link:
+        'https://www.corteconstitucional.gov.co/relatoria/2021/T-375-21.htm',
+    },
+    {
+      referencia: 'Corte Constitucional (2011) Sentencia C-577',
+      link:
+        'https://www.corteconstitucional.gov.co/relatoria/2011/c-577-11.htm',
+    },
+    {
+      referencia: 'Corte Constitucional (2016) Sentencia SU-214',
+      link:
+        'https://www.corteconstitucional.gov.co/relatoria/2016/su214-16.htm',
     },
   ],
   glosario: [
     {
-      termino: 'Algoritmo',
+      termino: 'Capacidad de obrar',
       significado:
-        'secuencia de pasos lógicos, finitos que resuelven un problema particular.',
+        'es la aptitud que tiene una persona para ejercer derechos y cumplir obligaciones por sí misma, realizando actos jurídicos válidos. Esta capacidad puede estar limitada en algunos individuos (como menores de edad o personas con discapacidad) y puede requerir de representantes para realizar ciertas acciones.',
     },
     {
-      termino: 'Ciclos',
+      termino: 'Capacidad jurídica',
       significado:
-        'conjunto de instrucciones de repetición que se llevan a cabo mientras se cumple una condición.',
+        'es la aptitud que tiene una persona para ser titular de derechos y obligaciones, independientemente de si puede ejercerlos por sí misma. Toda persona, desde su nacimiento, posee capacidad jurídica de forma inherente.',
     },
     {
-      termino: 'Condiciones',
+      termino: 'Estado Civil',
       significado:
-        'etapa en la que el algoritmo debe tomar una decisión y según la respuesta obtenida continuará su proceso.',
+        'es la situación jurídica de una persona en relación con su familia y ciertos aspectos sociales, como el matrimonio, la soltería, el divorcio o la viudez. El estado civil afecta ciertos derechos y deberes en temas como el patrimonio o las relaciones familiares.',
     },
     {
-      termino: 'Constante',
+      termino: 'Existencia Legal de las personas',
       significado:
-        'es una variable almacenada en memoria y cuyo contenido no cambiará durante todo el proceso de ejecución del algoritmo.',
+        'es el reconocimiento jurídico de una persona como sujeto de derechos y obligaciones. En el caso de las personas físicas, comienza con el nacimiento y, en el caso de las personas jurídicas, con su constitución y reconocimiento jurídico.',
     },
     {
-      termino: 'Diagrama de flujo',
+      termino: 'Fin de la existencia legal',
       significado:
-        'representación gráfica de un proceso, ilustran paso a paso la lógica que debe seguir el programa de manera sencilla.',
+        'es el momento en que una persona física o jurídica deja de ser reconocida como sujeto de derechos y obligaciones. Para las personas físicas, esto ocurre con la muerte, mientras que para las personas jurídicas sucede con la disolución y liquidación.',
     },
     {
-      termino: 'Eficiencia',
-      significado: 'seleccionar la manera óptima para resolver un problema.',
+      termino: 'Menores de edad',
+      significado:
+        'son las personas que aún no han alcanzado la mayoría de edad establecida por la ley y, por tanto, tienen una capacidad de obrar limitada. En general, requieren la representación o autorización de sus padres o tutores para realizar actos jurídicos.',
     },
     {
-      termino: 'Identificador',
+      termino: 'Obligaciones',
       significado:
-        'corresponde al nombre asignado a una variable en la memoria',
+        'son vínculos jurídicos por los cuales una persona (deudor) está comprometida a realizar una prestación o a abstenerse de hacer algo en favor de otra (acreedor). Las obligaciones son fundamentales en el derecho civil y regulan relaciones como contratos y reparaciones por daños.',
     },
     {
-      termino: 'Memoria',
+      termino: 'Personalidad jurídica',
       significado:
-        'espacio reservado dentro del sistema que contiene un nombre y una variable',
+        'es la cualidad que otorga el derecho a ciertos entes para ser sujetos de derechos y obligaciones. Este concepto incluye tanto a las personas físicas como a las personas jurídicas, permitiéndoles actuar en el ámbito jurídico como individuos o colectivos con identidad propia.',
     },
     {
-      termino: 'Proceso',
+      termino: 'Registro civil',
       significado:
-        'conjunto de instrucciones que "manipulan" los datos y entregan la solución al problema.',
+        'es la institución o sistema mediante el cual el Estado lleva un registro de los actos y hechos relacionados con el estado civil de las personas, tales como nacimientos, matrimonios, divorcios y defunciones. Este registro garantiza la publicidad y validez de estos hechos.',
     },
     {
-      termino: 'Programa',
+      termino: 'Voluntad',
       significado:
-        '"Conjunto de instrucciones que sigue la computadora para alcanzar un resultado específico" (Von Neumann 1946)',
-    },
-    {
-      termino: 'Pseudocódigo',
-      significado:
-        'permite escribir de manera ordenada la secuencia de pasos lógicos que el algoritmo debe ejecutar, es universal lo que implica su comprensión y lectura sin requerirse un lenguaje de programación formal para su escritura',
-    },
-    {
-      termino: 'Secuencia',
-      significado:
-        'ejecución de instrucciones de manera ordenada y jerárquica, lineal, una tras otra y sin interrupción hasta su finalización',
-    },
-    {
-      termino: 'Sistema',
-      significado:
-        'conjunto de elementos que tienen una relación directa entre sí y que interactúan de manera coordinada para obtener un objetivo específico',
-    },
-    {
-      termino: 'Variable',
-      significado:
-        'diferente a la constante, la variable sí cambia "varía" su valor según los procedimientos que se lleven a cabo dentro del algoritmo.',
+        'es la intención o deseo de una persona de realizar ciertos actos jurídicos. En el derecho civil, la voluntad es fundamental para la validez de los actos jurídicos, ya que una persona debe actuar con libre intención y conocimiento para que el acto sea considerado válido.',
     },
   ],
   complementario: [],

@@ -14,12 +14,14 @@
 
 .bg-color
   &-1
-    background-color: #E4FEFE
+    background-color: #FCFAEB
   &-2
-    background-color: #E8EEFD
+    background-color: #DBEBF6
   &-3
-    background-color: #FFF8D5
-
+    background-color: #FDFCF5
+  &-bordered
+    background-color: #fff
+    border: 4px solid $color-primario
   &-sintesis
     background-color: #F9F9F9
   &-white
@@ -85,15 +87,15 @@ $custom-card-img-height: 322px
     object-fit: cover
 
 .acordion__header
-  background-color: #F0E9F6 !important
+  background-color: lighten($color-primario, 25%) !important
 
 .acordion__header--active
-  background-color: #7F35AB !important
+  background-color: lighten($color-primario, 10%) !important
   h4, i
-    color: #fff !important
+    color: #000 !important
 
 .acordion__contenido
-  background-color: #F0E9F6!important
+  background-color: lighten($color-primario, 40%) !important
 
 
 .anexo__texto
@@ -173,8 +175,8 @@ $custom-card-img-height: 322px
 
 
 .lista-ol--cuadro__vineta
-  background-color: #D722AB
-  color: #fff
+  background-color: $color-secundario
+  color: #000
   min-width: 32px
   min-width: 28px
   height: 28px
