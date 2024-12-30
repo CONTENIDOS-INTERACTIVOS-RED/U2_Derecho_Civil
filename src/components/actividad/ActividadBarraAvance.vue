@@ -7,7 +7,7 @@
         </div>
       </div>
       <div class="col col-md-auto text-center">
-        <span class="lh-1">
+        <span class="lh-1 tarjeta-avance__text">
           Pregunta {{ preguntaIndex + 1 }} de {{ preguntasCount }}
         </span>
       </div>
@@ -88,7 +88,7 @@ export default {
 
 <style lang="sass" scoped>
 .tarjeta-avance
-  background-color: #dce4ebff
+  background-color: $bg-fondo-slider
   border-bottom-right-radius: 10px
   border-bottom-left-radius: 10px
   overflow: hidden
@@ -103,14 +103,18 @@ export default {
     pointer-events: none
 
   &__barra-container
-    background-color: #b4cce3ff
+    background-color: lighten($bg-fondo-slider, 50%)
     border-radius: 8px
     height: 16px
     overflow: hidden
     .tarjeta-avance__barra
-      background-color: #2c70abff
+      background-color: $bg-bullets-slider-activo
       height: 100%
       border-radius: 8px
       width: 0%
       transition: width 0.5s
+
+  &__text
+    color: $white
+    font-weight: 700
 </style>

@@ -17,7 +17,7 @@
         <div
           v-for="(respuesta, idx) in opcionesComputed"
           :key="respuesta.id"
-          class="tarjeta tarjeta--blanca tarjeta-respuesta p-3 px-4"
+          class="tarjeta tarjeta-respuesta--azul tarjeta-respuesta p-3 px-4"
           :class="{
             'mb-3': idx !== opcionesComputed.length - 1,
             'tarjeta-respuesta--correcta': respuesta.correcta,
@@ -166,4 +166,8 @@ img
 
     &--incorrecto
       background-image: url('~@/assets/actividad/incorrecto.svg')
+
+.tarjeta-respuesta--azul
+  background-color: lighten(#dce4eb, 5%)
+  border-color: #dce4eb
 </style>

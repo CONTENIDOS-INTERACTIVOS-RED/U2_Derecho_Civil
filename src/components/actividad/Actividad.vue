@@ -1,5 +1,5 @@
 <template>
-  <div class="tarjeta--blanca">
+  <div class="tarjeta--blanca--">
     <div class="row align-items-center mb-4">
       <div class="col-auto">
         <img
@@ -243,5 +243,6 @@ export default {
 
 .tarjeta--lightest-gray
   border: 3px solid #dce4eb
-  background: lighten(#dce4eb, 7%)
+  background: #fff
+  // background: lighten(#dce4eb, 7%)
 </style>
