@@ -3,13 +3,13 @@
     <div class="col-lg-5">
       <img
         v-if="aprobado"
-        src="@/assets/actividad/quizz_ok.svg"
+        src="@/assets/actividad/img_correcto.svg"
         alt=""
         class="mx-auto d-none d-lg-block"
       />
       <img
         v-else
-        src="@/assets/actividad/quizz_bad.svg"
+        src="@/assets/actividad/img_incorrecto.svg"
         alt=""
         class="mx-auto d-none d-lg-block"
       />

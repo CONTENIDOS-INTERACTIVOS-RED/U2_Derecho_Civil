@@ -3,7 +3,7 @@
     <div class="row align-items-center mb-4">
       <div class="col-auto">
         <img
-          src="@/assets/actividad/icon_quizz.png"
+          src="@/assets/actividad/icon.svg"
           alt=""
           width="90px"
           style="max-width: 90px"

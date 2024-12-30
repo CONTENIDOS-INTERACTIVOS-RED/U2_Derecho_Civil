@@ -229,7 +229,7 @@
         figure
           img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in").mt-4.mt-lg-0
 
-    .bg-full-width.border-top.color-acento-contenido.bg-color-4
+    .bg-full-width.border-top.actividad.bg-color-4
       .p-4.p-md-5
         #Actividad                
           <Actividad :cuestionario="cuestionario"/>

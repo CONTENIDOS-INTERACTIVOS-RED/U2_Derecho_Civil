@@ -110,7 +110,7 @@ export default {
   color: $color-sistema-a
 
 .question__number
-  background-color: $color-acento-contenido
+  background-color: #F1A607
   font-weight: 900
   color: #fff
   width: 32px

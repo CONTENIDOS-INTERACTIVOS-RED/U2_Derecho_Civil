@@ -103,12 +103,12 @@ export default {
     pointer-events: none
 
   &__barra-container
-    background-color: #b4cce3ff
+    background-color: #FDF5E4
     border-radius: 8px
     height: 16px
     overflow: hidden
     .tarjeta-avance__barra
-      background-color: #2c70abff
+      background-color: #E5782C
       height: 100%
       border-radius: 8px
       width: 0%
