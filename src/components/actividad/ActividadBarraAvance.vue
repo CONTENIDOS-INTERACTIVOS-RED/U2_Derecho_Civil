@@ -108,7 +108,7 @@ export default {
     height: 16px
     overflow: hidden
     .tarjeta-avance__barra
-      background-color: $bg-bullets-slider-activo
+      background-color: $light-blue
       height: 100%
       border-radius: 8px
       width: 0%

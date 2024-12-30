@@ -359,22 +359,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'transferir.',
+              texto: 'Transferir.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'ceder.',
+              texto: 'Ceder.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'ejercer.',
+              texto: 'Ejercer.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'renunciar.',
+              texto: 'Renunciar.',
               esCorrecta: false,
             },
           ],

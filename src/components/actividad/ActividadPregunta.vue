@@ -138,14 +138,14 @@ img
       background-image: url('~@/assets/actividad/vacio-hover.svg')
 
   &--correcta
-    border-color: #61ca92ff
-    background-color: #ebfff0ff
+    border-color: #61ca92ff !important
+    background-color: #ebfff0ff !important
     &:hover
       border-color: #61ca92ff
 
   &--incorrecta
-    border-color: #ff6b6bff
-    background-color: #ffedecff
+    border-color: #ff6b6bff !important
+    background-color: #ffedecff !important
     &:hover
       border-color: #ff6b6bff
 
