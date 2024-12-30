@@ -141,16 +141,6 @@ export default {
   referencias: [
     {
       referencia:
-        'Chavarro Cadena, J. E. (2018). Código Civil: (2 ed.). Grupo Editorial Nueva Legislación SAS.',
-      link: 'https://ebook.net/es/lc/tecnologicadeloriente/titulos/68942',
-    },
-    {
-      referencia:
-        'Medina Pabón, J. E. (2018). Derecho Civil: derecho de familia: (5 ed.). Editorial Universidad del Rosario.',
-      link: 'https://ebook.net/es/lc/tecnologicadeloriente/titulos/70721',
-    },
-    {
-      referencia:
         'Medina Pabón, J. E. (2014). Derecho civil: derecho de personas: (4 ed.). Editorial Universidad del Rosario.',
       link: 'https://ebook.net/es/lc/tecnologicadeloriente/titulos/69643',
     },
@@ -160,14 +150,15 @@ export default {
         'https://www.corteconstitucional.gov.co/relatoria/2021/T-375-21.htm',
     },
     {
-      referencia: 'Corte Constitucional (2011) Sentencia C-577',
+      referencia:
+        'Agurto, C. (2018). Capacidad jurídica: el histórico problema de una categoría fundamental en el derecho',
       link:
-        'https://www.corteconstitucional.gov.co/relatoria/2011/c-577-11.htm',
+        'https://www.minjusticia.gov.co/Sala-de-prensa/PublicacionesMinJusticia/El%20ejercicio%20de%20la%20capacidad%20juri%C3%ACdica%20_%20Guia%20para%20su%20implementacion%20(Cartilla%20Ley%201996-2019).pdf',
     },
     {
-      referencia: 'Corte Constitucional (2016) Sentencia SU-214',
-      link:
-        'https://www.corteconstitucional.gov.co/relatoria/2016/su214-16.htm',
+      referencia:
+        'Morelo,A. (2001). El proceso civil moderno. Librería Editora Platense S.R.L.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/66581',
     },
   ],
   glosario: [
