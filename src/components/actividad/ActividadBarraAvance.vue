@@ -88,7 +88,7 @@ export default {
 
 <style lang="sass" scoped>
 .tarjeta-avance
-  background-color: $bg-fondo-slider
+  background-color:  #dce4eb
   border-bottom-right-radius: 10px
   border-bottom-left-radius: 10px
   overflow: hidden
@@ -103,18 +103,17 @@ export default {
     pointer-events: none
 
   &__barra-container
-    background-color: lighten($bg-fondo-slider, 50%)
+    background-color: #b4cce3ff
     border-radius: 8px
     height: 16px
     overflow: hidden
     .tarjeta-avance__barra
-      background-color: $light-blue
+      background-color: #2c70abff
       height: 100%
       border-radius: 8px
       width: 0%
       transition: width 0.5s
 
   &__text
-    color: $white
-    font-weight: 700
+    color: #000
 </style>
