@@ -1,5 +1,5 @@
 <template>
-  <div class="tarjeta-avance">
+  <div class="tarjeta-avance p-3">
     <div class="row align-items-center">
       <div class="d-none d-md-block col">
         <div class="tarjeta-avance__barra-container ms-4">
@@ -24,7 +24,7 @@
         </button>
         <button
           v-else
-          class="boton btn-lg boton--b py-3 px-4"
+          class="boton btn-lg boton--b py-3 px-4 d-none"
           :class="{ 'boton--disabled': continuarDisabled }"
           @click="$emit('continuar')"
         >
