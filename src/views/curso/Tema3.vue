@@ -229,13 +229,13 @@
         figure
           img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in").mt-4.mt-lg-0
 
-    .bg-full-width.border-top.actividad.bg-color-4
+    .bg-full-width.border-top.actividad.bg-color-actividad
       .p-4.p-md-5
         #Actividad                
           <Actividad :cuestionario="cuestionario"/>
 
 
-    .bg-full-width.border-top.color-primario.d-none
+    .bg-full-width.border-top.color-primario
       .p-4.p-md-5
         h2 MATERIAL COMPLEMENTARIO
         .row.material-complementario
@@ -243,31 +243,16 @@
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=saXfavo1OQo" target="_blank" rel="noopener noreferrer") Charlas TEDx ( 8 de enero de 2016). El poder de escuchar | William Ury | TEDx San Diego
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/66581" target="_blank" rel="noopener noreferrer") Morelo,A. (2001). El proceso civil moderno. Librería Editora Platense S.R.L.
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span Coser, LA (1956). Las funciones del conflicto social. Fondo de Cultura Económica.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/46979" target="_blank" rel="noopener noreferrer") Alvira, R. (2008). Sociedad civil: la democracia y su destino (2a. ed.) EUNSA
+
+            //- Referencia de youtube 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span González Rey, F. (2016). Introducción a la teoría de la cooperación en conflictos. Ediciones Humanistas.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span La Rosa, M., & Rivas, P. (2017). Métodos alternativos de resolución de conflictos. Ediciones Jurídicas.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span Marx, K. (1867). El capital. Siglo XXI Editores.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span Mirabal, O. (2003). Fundamentos de negociación y mediación en conflictos. Editorial Universitaria.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span Programa de las Naciones Unidas para el Desarrollo (PNUD). (2018). Herramientas para la resolución pacífica de conflictos. PNUD.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span Universidad Tecnológica de México (UNITEC). (2016). Manual de comunicación efectiva y resolución de conflictos. UNITEC.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span Weber, M. (1922). Economía y sociedad: Esbozo de sociología comprensiva. Fondo de Cultura Económica.
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/6TtIncpfbe4?si=IgRQS5mNzemtn3Qu" target="_blank" rel="noopener noreferrer") Diaz, C. (24 de septiembre de 2022) Actos Jurídicos: Claves para su correcto estudio.  
+
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='')
@@ -292,7 +277,7 @@ export default {
           id: 1,
           texto:
             'El estado civil debe acreditarse mediante ______ oficiales, como el acta de nacimiento o matrimonio.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: '',
           barajarRespuestas: true,
           opciones: [
             {
@@ -323,7 +308,7 @@ export default {
           id: 2,
           texto:
             'El fallecimiento de una persona natural causa el ______ de su personalidad jurídica.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: '',
           barajarRespuestas: true,
           opciones: [
             {
@@ -354,7 +339,7 @@ export default {
           id: 3,
           texto:
             'Una persona con capacidad de obrar plena puede ______ sus derechos sin restricciones.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: '',
           barajarRespuestas: true,
           opciones: [
             {
@@ -385,7 +370,7 @@ export default {
           id: 4,
           texto:
             'Una empresa de consultoría en Derecho revisa los atributos de personalidad de las personas jurídicas en comparación con las naturales. Al estudiar los derechos, encuentra uno aplica a los dos tipos de persona. ¿Cuál de los siguientes es compartido tanto por personas naturales como jurídicas?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: '',
           barajarRespuestas: true,
           opciones: [
             {
@@ -416,7 +401,7 @@ export default {
           id: 5,
           texto:
             'Fernando está revisando los documentos de su empresa puesto que junto con sus socios se disponen a cambiar de domicilio. Ante la situación se pregunta si habrán repercusiones e los derechos y obligaciones que ostenta su organización. ¿El cambio de domicilio afecta la personalidad jurídica de una persona jurídica en Colombia?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: '',
           barajarRespuestas: true,
           opciones: [
             {

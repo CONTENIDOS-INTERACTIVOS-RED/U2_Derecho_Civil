@@ -139,7 +139,7 @@
 
 
 
-    .bg-full-width.border-top.color-primario.d-none
+    .bg-full-width.border-top.color-primario
       .p-4.p-md-5
         h2 MATERIAL COMPLEMENTARIO
         .row.material-complementario
@@ -147,31 +147,20 @@
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=saXfavo1OQo" target="_blank" rel="noopener noreferrer") Charlas TEDx ( 8 de enero de 2016). El poder de escuchar | William Ury | TEDx San Diego
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/69643" target="_blank" rel="noopener noreferrer") Medina Pabón, J. E. (2014). Derecho civil: derecho de personas: (4 ed.). Editorial Universidad del Rosario. 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span Coser, LA (1956). Las funciones del conflicto social. Fondo de Cultura Económica.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.corteconstitucional.gov.co/relatoria/2021/T-375-21.htm" target="_blank" rel="noopener noreferrer") Corte Constitucional (2021) Sentencia T-375 
+
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span González Rey, F. (2016). Introducción a la teoría de la cooperación en conflictos. Ediciones Humanistas.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/2726" target="_blank" rel="noopener noreferrer") García,E. (1992) El concepto de personalidad jurídica en el derecho público. Revista de Administración Pública, (129). CEPC - Centro de Estudios Políticos y Constitucionales. 
+
+            //- Referencia de youtube 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span La Rosa, M., & Rivas, P. (2017). Métodos alternativos de resolución de conflictos. Ediciones Jurídicas.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span Marx, K. (1867). El capital. Siglo XXI Editores.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span Mirabal, O. (2003). Fundamentos de negociación y mediación en conflictos. Editorial Universitaria.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span Programa de las Naciones Unidas para el Desarrollo (PNUD). (2018). Herramientas para la resolución pacífica de conflictos. PNUD.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span Universidad Tecnológica de México (UNITEC). (2016). Manual de comunicación efectiva y resolución de conflictos. UNITEC.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span Weber, M. (1922). Economía y sociedad: Esbozo de sociología comprensiva. Fondo de Cultura Económica.
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=a7Hr5xdaEdI" target="_blank" rel="noopener noreferrer") Bramuzzi, G (2020) Capacidad como atributo de la personalidad. 
+
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='')
