@@ -104,6 +104,14 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        unidad: 'UNIDAD 2.',
+        numero: '',
+        titulo: 'Síntesis',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
@@ -120,11 +128,6 @@ export default {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
-      },
-      {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
       },
       {
         icono: 'fas fa-download',
